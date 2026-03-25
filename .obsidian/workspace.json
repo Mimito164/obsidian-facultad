@@ -1,0 +1,222 @@
+{
+  "main": {
+    "id": "268c9cbe1fa117de",
+    "type": "split",
+    "children": [
+      {
+        "id": "11785c5113929ed8",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c5c3899f66ed716b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Administracion-SI/MOC.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "MOC"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5d2eef5195ba94a3",
+    "type": "split",
+    "children": [
+      {
+        "id": "9ced5f526497041d",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9070533aeba6e321",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "89b366e49f336a65",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0725e67d9dfb2f67",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5306fa1a93af6dff",
+    "type": "split",
+    "children": [
+      {
+        "id": "390042771c1405c1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "844551c8dc31b971",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Administracion-SI/MOC.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": false
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for MOC"
+            }
+          },
+          {
+            "id": "5feb6c78a9c86cd0",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "_templates/clase-admin.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from clase-admin"
+            }
+          },
+          {
+            "id": "55e046d39d681c23",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "6c45b1eee8576431",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "0120f779563bc282",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "_templates/clase-admin.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of clase-admin"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
+    }
+  },
+  "active": "c5c3899f66ed716b",
+  "lastOpenFiles": [
+    "Administracion-SI/unidad-01-plan-estrategico.md",
+    "Administracion-SI/MOC.md",
+    "_templates/clase-admin.md",
+    "Administracion-SI/Untitled.md",
+    "Ingenieria-Calidad-SW/MOC.md",
+    "Ingenieria-Calidad-SW/unidad-01-introduccion-ingenieria-sw.md",
+    "Analisis-Numerico/unidad-01-senales-sistemas.md",
+    "Analisis-Numerico/MOC.md",
+    "README.md",
+    "Fisica-II/MOC.md",
+    "Fisica-II/unidad-01-calor.md",
+    "unidad-02-principios-termodinamica.md",
+    "unidad-01-plan-estrategico.md",
+    "unidad-01-introduccion-comunicaciones.md",
+    "unidad-06-canales-comunicaciones.md",
+    "unidad-05-teoria-informacion-codificacion.md",
+    "unidad-03-redes-telecomunicaciones.md",
+    "unidad-02-senales-telecomunicaciones.md",
+    "Comunicacion-de-Datos/unidad-02-senales-telecomunicaciones.md",
+    "Comunicacion-de-Datos/MOC.md"
+  ]
+}
