@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Administracion-SI/MOC.md",
+                "file": "Administracion-SI/unidad-01-plan-estrategico.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MOC"
+              "title": "unidad-01-plan-estrategico"
             }
           }
         ]
@@ -190,13 +190,16 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "templater-obsidian:Templater": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-git:Open Git source control": false
     }
   },
   "active": "c5c3899f66ed716b",
   "lastOpenFiles": [
-    "Administracion-SI/unidad-01-plan-estrategico.md",
     "Administracion-SI/MOC.md",
+    "Administracion-SI/unidad-01-plan-estrategico.md",
     "_templates/clase-admin.md",
     "Administracion-SI/Untitled.md",
     "Ingenieria-Calidad-SW/MOC.md",
