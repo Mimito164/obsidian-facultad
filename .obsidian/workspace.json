@@ -179,8 +179,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -196,7 +195,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c5c3899f66ed716b",
+  "active": "844551c8dc31b971",
   "lastOpenFiles": [
     "Administracion-SI/unidad-00-into.md",
     "Administracion-SI/MOC.md",
