@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Administracion-SI/unidad-01-plan-estrategico.md",
+                "file": "Administracion-SI/MOC.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "unidad-01-plan-estrategico"
+              "title": "MOC"
             }
           }
         ]
@@ -198,8 +198,8 @@
   },
   "active": "c5c3899f66ed716b",
   "lastOpenFiles": [
-    "Administracion-SI/MOC.md",
     "Administracion-SI/unidad-01-plan-estrategico.md",
+    "Administracion-SI/MOC.md",
     "_templates/clase-admin.md",
     "Administracion-SI/Untitled.md",
     "Ingenieria-Calidad-SW/MOC.md",
