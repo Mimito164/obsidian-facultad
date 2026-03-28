@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "c5c3899f66ed716b",
+            "id": "602b372598879da7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Administracion-SI/MOC.md",
+                "file": "Fisica-II/Guia de ejercicios/Calorimetria/Untitled.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +28,47 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "MOC"
+              "title": "Untitled"
+            }
+          },
+          {
+            "id": "e4043a3237478966",
+            "type": "leaf",
+            "state": {
+              "type": "image",
+              "state": {
+                "file": "_attachments/Pasted Image 20260328183652_350.png"
+              },
+              "icon": "lucide-image",
+              "title": "Pasted Image 20260328183652_350"
+            }
+          },
+          {
+            "id": "72cebd72bc2bd061",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Fisica-II/Guia de ejercicios/Calorimetria/Untitled.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
+              "icon": "lucide-file",
+              "title": "Untitled"
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -104,7 +141,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Administracion-SI/MOC.md",
+                "file": "Fisica-II/Guia de ejercicios/Calorimetria/Untitled.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +151,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MOC"
+              "title": "Backlinks for Untitled"
             }
           },
           {
@@ -179,7 +216,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,10 +233,31 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "844551c8dc31b971",
+  "active": "72cebd72bc2bd061",
   "lastOpenFiles": [
-    "Administracion-SI/unidad-00-into.md",
+    "_attachments/Drawing 2026-03-28 19.27.52.excalidraw.md",
+    "Fisica-II/Guia de ejercicios/Calorimetria/Untitled.md",
+    "_templates/clase-fisica.md",
+    "_attachments/Pasted Image 20260328183652_350.png",
+    "_attachments/Pasted image 20260328192453.png",
+    "_attachments/Drawing 2026-03-28 18.34.44.excalidraw.md",
+    "Fisica-II/unidad-01-calor.md",
+    "Fisica-II/MOC.md",
+    "Ink/Drawing/2026.3.28 - 19.23pm.drawing",
+    "Fisica-II/Guia revisada.pdf",
+    "Ink/Drawing",
+    "Ink",
+    "Fisica-II/Guia de ejercicios/Calorimetria/Drawing 2026-03-28 18.34.44.excalidraw.md",
+    "Fisica-II/Guia de ejercicios/Calorimetria",
+    "Fisica-II/Guia de ejercicios",
+    "_attachments/Drawing 2026-03-28 18.32.26.excalidraw.md",
+    "_attachments/Drawing 2026-03-28 19.18.20.excalidraw.md",
+    "_attachments/Drawing 2026-03-28 18.34.43.excalidraw.md",
+    "README.md",
+    "Fisica-II/Unconfirmed 289944.crdownload",
+    "Comunicacion-de-Datos/MOC.md",
     "Administracion-SI/MOC.md",
+    "Administracion-SI/unidad-00-into.md",
     "Administracion-SI/unidad-01-plan-estrategico.md",
     "_templates/clase-admin.md",
     "Administracion-SI/Untitled.md",
@@ -206,17 +265,10 @@
     "Ingenieria-Calidad-SW/unidad-01-introduccion-ingenieria-sw.md",
     "Analisis-Numerico/unidad-01-senales-sistemas.md",
     "Analisis-Numerico/MOC.md",
-    "README.md",
-    "Fisica-II/MOC.md",
-    "Fisica-II/unidad-01-calor.md",
     "unidad-02-principios-termodinamica.md",
     "unidad-01-plan-estrategico.md",
     "unidad-01-introduccion-comunicaciones.md",
     "unidad-06-canales-comunicaciones.md",
-    "unidad-05-teoria-informacion-codificacion.md",
-    "unidad-03-redes-telecomunicaciones.md",
-    "unidad-02-senales-telecomunicaciones.md",
-    "Comunicacion-de-Datos/unidad-02-senales-telecomunicaciones.md",
-    "Comunicacion-de-Datos/MOC.md"
+    "unidad-05-teoria-informacion-codificacion.md"
   ]
 }
