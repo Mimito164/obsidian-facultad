@@ -1,8 +1,7 @@
 # Análisis Numérico — Map of Content
 
 ## Señales y sistemas
-- [[unidad-01-senales-sistemas]]
-- [[unidad-02-series-de-fourier]]
+- [[unidad-01-series-de-fourier]]
 - [[unidad-03-transformadas-fourier]]
 - [[unidad-04-analisis-sistemas-continuos]]
 
