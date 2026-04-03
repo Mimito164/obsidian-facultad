@@ -102,3 +102,91 @@ $$
 Sf(x)=\frac{{f^+(x)+f^-(x)}}{2}
 $$
 - $\frac{a_{0}}{2}$ es el valor medio de la funcion. Esto significa que el area debajo de la constante es igual al que esta encima de la constante dado un intervalo igual al periodo.
+## Funciones cuyo periodo no sea $2\pi$
+
+La estrategia para abordar estas funciones es, elegir una parametrizacion de la funcion para que su periodo si sea $2\pi$
+$$
+
+$$
+$$
+f(x)=f(x+T) \overbrace{\implies}^{z=\frac{2\pi}{T}x=\omega x}f(x)=f\left( \frac{T}{2\pi}z \right)=g(z)
+$$
+$$
+S(z)=\frac{a_{0}}{2}+\sum_{n=1}^\infty a_{n}\cos(nz)+b_{n}\sin(nz)
+$$
+$$
+S(x)=\frac{a_{0}}{2}+\sum_{n=1}^\infty a_{n}\cos(n\omega x)+b_{n}\sin(n\omega x)
+$$
+$$
+a_{0}=\frac{1}{L}\int_{-L}^{L}f(x)dx
+$$
+$$
+a_{n}=\frac{1}{L}\int_{-L}^{L}f(x)\cos(n\omega x)dx
+$$
+$$
+b_{n}=\frac{1}{L}\int_{-L}^{L}f(x)\sin(n\omega x)dx
+$$
+## Particularidades de funciones par e impar
+
+$$
+f\text{ es par} \iff f(x)=f(-x)
+$$
+$$
+f\text{ es impar} \iff f(x)=-f(-x)
+$$Entonces
+$$
+\text{Si } g \text{ es impar}\implies \int_{-a}^a g(x)dx =0
+$$
+$$
+\text{Si } g \text{ es par}\implies \int_{-a}^a g(x)dx =2\int_{0}^ag(x)dx
+$$
+Aplicado a la serie de fourier
+Si $f$ es **par**:
+$$
+b_{n}=\frac{1}{L}\int_{-L}^L \underbrace{\underbrace{f(x)}_{\text{par}} \underbrace{\sin(n\omega x)}_{\text{impar}}}_{\text{impar}}dx=0
+$$
+$$
+a_{n}=\frac{1}{L}\int_{-L}^L \underbrace{\underbrace{f(x)}_{\text{par}} \underbrace{\cos(n\omega x)}_{\text{par}}}_{\text{par}}dx
+
+=\frac{2}{L}\int_{0}^L f(x)\cos(n\omega x)dx
+$$
+> Se convierte en una serie de **cosenos**
+
+Si $f$ es **impar**:
+$$
+a_{n}=\frac{1}{L}\int_{-L}^L \underbrace{\underbrace{f(x)}_{\text{impar}} \underbrace{\cos(n\omega x)}_{\text{par}}}_{\text{impar}}dx
+
+=0
+$$
+$$
+b_{n}=\frac{1}{L}\int_{-L}^L \underbrace{\underbrace{f(x)}_{\text{impar}} \underbrace{\sin(n\omega x)}_{\text{impar}}}_{\text{par}}dx
+
+=\frac{2}{L}\int_{0}^L f(x)\sin(n\omega x)dx
+$$
+> Se convierte en una serie de **senos**
+## Funciones periodicas alternadas
+$$
+f(x)=-f\left( x+\frac{T}{2} \right)
+$$
+- Se dice que es periodica alternada o que tiene simetria de media onda
+- No necesaria mente es par o impar
+- una funcion par o impar puede tener simetria de media onda
+
+### Propiedad
+$$
+\text{Si } f \text{ es periodica alternada} \implies \text{ los coeficientes de la STF } a_{0}, a_{2k},b_{2k}\text{ son nulos}
+$$
+
+Algunas funciones se nos puede facilitar el calculo desplazandolas verticalmente.
+
+$$
+f(x)=g(x)+3\quad Sf(x)=Sg(x)+3
+$$
+### Espectros discretos de la STF
+son graficos del valor de $a_{n}$ o $b_{n}$ en funcion de $n$
+
+#### Propiedad
+Siempre se cumple que:
+$$
+\lim_{ n \to \infty } a_{n}=0\quad \lim_{ n \to \infty } b_{n}=0
+$$
