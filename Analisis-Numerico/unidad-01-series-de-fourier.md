@@ -40,3 +40,65 @@ $$
 $$
 ||f|| =\sqrt{ <f\cdot f> }=\sqrt{ \int_{a}^b f^{2}(x)dx }
 $$
+## Calculo de los coeficientes de la serie de fourier
+
+$$
+\begin{array} \\
+f = k_{1}f_{1}+k_{2}f_{2}+\dots+k_{n}f_{n}+\dots \\
+<f\cdot f_{n}> = <(k_{1}f_{1}+k_{2}f_{2}+\dots+k_{n}f_{n}+\dots) \cdot f_{n}> \\
+<f\cdot f_{n}> = < k_{1}f_{1}\cdot f_{n}>+<k_{2}f_{2}\cdot f_{n}> + \dots +<k_{n}f_{n}\cdot f_{n}> + \dots \\
+<f\cdot f_{n}> = k_{1}\underbrace{<f_{1}\cdot f_{n}>}_0 + k_{2}\underbrace{<f_{2}\cdot f_{n}>}_{0} + \dots +k_{n}\underbrace{<f_{n}\cdot f_{n}>}_{1} + \dots
+\end{array}
+$$
+$$
+k_{n}= <f\cdot f_{n}> =\int_{a}^b f(x)f_{n}(x)dx
+$$
+## Base de la serie trigonometrica de fourier
+$$
+B = \{1,\cos(nx),\sin(nx)/ n\in \mathbb{N}\} 
+$$
+Esta base es ortogonal pero no es **ortonormal**. Entonces dividimos estos terminos por su norma para que asi sea una base ortonormal.
+$$
+\mathbf{B'=\left\{ \frac{1}{\sqrt{ 2\pi }}, \frac{\cos(nx)}{\sqrt{ \pi }}, \frac{\sin(nx)}{\sqrt{ \pi }}/ n\in \mathbb{N} \right\}}
+$$
+
+$$
+Sf(x)=k_{0}\frac{1}{\sqrt{ 2\pi }} + \sum_{n=1}^\infty k_{n}\cdot \frac{\cos(nx)}{\sqrt{ \pi }}+k'_{n}\cdot \frac{\sin(nx)}{\sqrt{ \pi }} 
+$$
+$$
+Sf(x)=\frac{a_{0}}{2}+\sum_{n=1}^\infty a_{n}\cos (nx) + b_{n}\sin (nx)
+$$
+$$
+a_{0}=\frac{1}{\pi}\int_{0}^{2\pi}f(x)dx
+$$
+$$
+a_{n}=\frac{1}{\pi}\int_{0}^{2\pi}f(x)\cos(nx)dx
+$$
+
+$$
+Sf(x)=k_{0}\frac{1}{\sqrt{ 2\pi }} + \sum_{n=1}^\infty k_{n}\cdot \frac{\cos(nx)}{\sqrt{ \pi }}+k'_{n}\cdot \frac{\sin(nx)}{\sqrt{ \pi }} 
+$$
+$$
+Sf(x)=\frac{a_{0}}{2}+\sum_{n=1}^\infty a_{n}\cos (nx) + b_{n}\sin (nx)
+$$
+$$
+a_{0}=\frac{1}{\pi}\int_{0}^{2\pi}f(x)dx
+$$
+$$
+a_{n}=\frac{1}{\pi}\int_{0}^{2\pi}f(x)\cos(nx)dx
+$$
+$$
+b_{n}=\frac{1}{\pi}\int_{0}^{2\pi}f(x)\sin(nx)dx
+$$
+
+### Aclaraciones importantes
+
+- Hasta ahora todo esto sirve para funciones definidas entre $0$ y $2\pi$
+- Se puede trabajar con funciones periodicas cuyo periodo es $T=2\pi$
+- Se puede trabajar en cualquier parte del periodo de $2\pi$ unidades $\int_{K}^{K+2\pi}$
+- $Sf(x)=f(x)$ en todos los puntos de continuidad de $f$
+- En las discontinuidades, $Sf(x)$ toma el valor medio del salto.
+$$
+Sf(x)=\frac{{f^+(x)+f^-(x)}}{2}
+$$
+- $\frac{a_{0}}{2}$ es el valor medio de la funcion. Esto significa que el area debajo de la constante es igual al que esta encima de la constante dado un intervalo igual al periodo.
