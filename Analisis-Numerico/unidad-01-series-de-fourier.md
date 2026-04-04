@@ -126,6 +126,9 @@ $$
 $$
 b_{n}=\frac{1}{L}\int_{-L}^{L}f(x)\sin(n\omega x)dx
 $$
+$$
+\omega_0 = \frac{2\pi}{T} = \frac{2\pi}{2L} = \frac{\pi}{L} \quad \Rightarrow \quad n\omega_0 = \frac{n\pi}{L}
+$$
 ## Particularidades de funciones par e impar
 
 $$
