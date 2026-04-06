@@ -126,6 +126,7 @@ $$
 $$
 b_{n}=\frac{1}{L}\int_{-L}^{L}f(x)\sin(n\omega x)dx
 $$
+- La anterior es una expresion general pero tambien se puede integrar de $0$ a $T$
 $$
 \omega_0 = \frac{2\pi}{T} = \frac{2\pi}{2L} = \frac{\pi}{L} \quad \Rightarrow \quad n\omega_0 = \frac{n\pi}{L}
 $$
