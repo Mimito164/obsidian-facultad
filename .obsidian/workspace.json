@@ -4,31 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "11785c5113929ed8",
+        "id": "edd0208a8948ac21",
         "type": "tabs",
         "children": [
           {
-            "id": "c5c3899f66ed716b",
+            "id": "1c5e4ccea8bd20e0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Administracion-SI/MOC.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
+                "file": "_attachments/Drawing 2026-03-28 18.34.44.excalidraw.md"
               },
-              "icon": "lucide-file",
-              "title": "MOC"
+              "icon": "excalidraw-icon",
+              "title": "Drawing 2026-03-28 18.34.44.excalidraw"
             }
           }
         ]
@@ -104,7 +92,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Administracion-SI/MOC.md",
+                "file": "Analisis-Numerico/unidad-01-series-de-fourier.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
                 "unlinkedCollapsed": false
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for MOC"
+              "title": "Backlinks for unidad-01-series-de-fourier"
             }
           },
           {
@@ -196,27 +184,42 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c5c3899f66ed716b",
+  "active": "1c5e4ccea8bd20e0",
   "lastOpenFiles": [
+    "Fisica-II/Guia de ejercicios/Calorimetria/Untitled.md",
+    "Fisica-II/Guia revisada.pdf",
+    "_attachments/Drawing 2026-03-28 18.34.44.excalidraw.md",
+    "Fisica-II/unidad-01-calor.md",
+    "Fisica-II/MOC.md",
+    "Analisis-Numerico/unidad-01-series-de-fourier.md",
+    "Analisis-Numerico/MOC.md",
+    "_attachments/Pasted Image 20260328183652_350.png",
+    "Analisis-Numerico/unidad-04-analisis-sistemas-continuos.md",
+    "Analisis-Numerico/unidad-02-series-de-fourier.md",
+    "Ingenieria-Calidad-SW/MOC.md",
+    "README.md",
+    "Ink/Drawing/2026.3.28 - 19.23pm.drawing",
+    "notebooks.md",
+    "_attachments/Drawing 2026-03-28 19.27.52.excalidraw.md",
+    "_templates/clase-fisica.md",
+    "_attachments/Pasted image 20260328192453.png",
+    "Ink/Drawing",
+    "Ink",
+    "Fisica-II/Guia de ejercicios/Calorimetria/Drawing 2026-03-28 18.34.44.excalidraw.md",
+    "Fisica-II/Guia de ejercicios/Calorimetria",
+    "Fisica-II/Guia de ejercicios",
+    "_attachments/Drawing 2026-03-28 18.32.26.excalidraw.md",
+    "_attachments/Drawing 2026-03-28 19.18.20.excalidraw.md",
+    "_attachments/Drawing 2026-03-28 18.34.43.excalidraw.md",
+    "Fisica-II/Unconfirmed 289944.crdownload",
+    "Comunicacion-de-Datos/MOC.md",
+    "Administracion-SI/MOC.md",
+    "Administracion-SI/unidad-00-into.md",
     "Administracion-SI/unidad-01-plan-estrategico.md",
     "Administracion-SI/MOC.md",
     "_templates/clase-admin.md",
     "Administracion-SI/Untitled.md",
-    "Ingenieria-Calidad-SW/MOC.md",
     "Ingenieria-Calidad-SW/unidad-01-introduccion-ingenieria-sw.md",
-    "Analisis-Numerico/unidad-01-senales-sistemas.md",
-    "Analisis-Numerico/MOC.md",
-    "README.md",
-    "Fisica-II/MOC.md",
-    "Fisica-II/unidad-01-calor.md",
-    "unidad-02-principios-termodinamica.md",
-    "unidad-01-plan-estrategico.md",
-    "unidad-01-introduccion-comunicaciones.md",
-    "unidad-06-canales-comunicaciones.md",
-    "unidad-05-teoria-informacion-codificacion.md",
-    "unidad-03-redes-telecomunicaciones.md",
-    "unidad-02-senales-telecomunicaciones.md",
-    "Comunicacion-de-Datos/unidad-02-senales-telecomunicaciones.md",
-    "Comunicacion-de-Datos/MOC.md"
+    "Analisis-Numerico/unidad-01-senales-sistemas.md"
   ]
 }

@@ -2,5 +2,7 @@
   "templater-obsidian",
   "obsidian-excalidraw-plugin",
   "obsidian-git",
-  "dataview"
+  "dataview",
+  "ink",
+  "obsidian-latex-suite"
 ]

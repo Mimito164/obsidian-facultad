@@ -1,5 +1,4 @@
 # Administración de SI — Map of Content
-
 ## Estrategia y gobierno
 - [[unidad-01-plan-estrategico]]
 - [[unidad-02-gobierno-gestion-TIC]]
