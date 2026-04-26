@@ -5,7 +5,7 @@ unidad: "1"
 tema: Series de Fourier, serie trigonometrica de fourier
 tags: []
 ---
-# Propiedades generales
+# Serie Trigonometrica de Fourier (STF)
 - Las series de fourier son mas generales que las series de Taylor
 - Desarrollar una funcion en una serie de fourier **implica** escribir a dicha funcion como **combinacion lienal** de las funciones de una **base ortonormal**
 
@@ -106,9 +106,6 @@ $$
 
 La estrategia para abordar estas funciones es, elegir una parametrizacion de la funcion para que su periodo si sea $2\pi$
 $$
-
-$$
-$$
 f(x)=f(x+T) \overbrace{\implies}^{z=\frac{2\pi}{T}x=\omega x}f(x)=f\left( \frac{T}{2\pi}z \right)=g(z)
 $$
 $$
@@ -137,7 +134,8 @@ f\text{ es par} \iff f(x)=f(-x)
 $$
 $$
 f\text{ es impar} \iff f(x)=-f(-x)
-$$Entonces
+$$
+Entonces
 $$
 \text{Si } g \text{ es impar}\implies \int_{-a}^a g(x)dx =0
 $$
@@ -151,10 +149,9 @@ b_{n}=\frac{1}{L}\int_{-L}^L \underbrace{\underbrace{f(x)}_{\text{par}} \underbr
 $$
 $$
 a_{n}=\frac{1}{L}\int_{-L}^L \underbrace{\underbrace{f(x)}_{\text{par}} \underbrace{\cos(n\omega x)}_{\text{par}}}_{\text{par}}dx
-
 =\frac{2}{L}\int_{0}^L f(x)\cos(n\omega x)dx
 $$
-> Se convierte en una serie de **cosenos**
+Se convierte en una serie de **cosenos**
 
 Si $f$ es **impar**:
 $$
@@ -167,11 +164,14 @@ b_{n}=\frac{1}{L}\int_{-L}^L \underbrace{\underbrace{f(x)}_{\text{impar}} \under
 
 =\frac{2}{L}\int_{0}^L f(x)\sin(n\omega x)dx
 $$
-> Se convierte en una serie de **senos**
+Se convierte en una serie de **senos**
+
 ## Funciones periodicas alternadas
+
 $$
 f(x)=-f\left( x+\frac{T}{2} \right)
 $$
+
 - Se dice que es periodica alternada o que tiene simetria de media onda
 - No necesaria mente es par o impar
 - una funcion par o impar puede tener simetria de media onda
@@ -193,4 +193,21 @@ son graficos del valor de $a_{n}$ o $b_{n}$ en funcion de $n$
 Siempre se cumple que:
 $$
 \lim_{ n \to \infty } a_{n}=0\quad \lim_{ n \to \infty } b_{n}=0
+$$
+# Serie Exponencial de Fourier (SEF)
+
+Se parte de la formula de euler
+$$
+e^{j\alpha}=\cos \alpha +j\sin \alpha 
+$$
+$$
+e^{-j\alpha}=\cos \alpha -j\sin \alpha 
+$$
+Sumando m.a.m
+$$
+e^{j\alpha}+e^{-j\alpha}=2\cos \alpha \implies \cos \alpha= \frac {e^{j\alpha}+e^{j\alpha}}{2}
+$$
+Restando m.a.m
+$$
+e^{j\alpha}-e^{-j\alpha}=2j\sin \alpha \implies \sin \alpha= \frac {e^{j\alpha}-e^{-j\alpha}}{2j} = j\frac{e^{-j\alpha}-e^{j\alpha}}{2}
 $$
