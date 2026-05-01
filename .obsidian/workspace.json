@@ -186,7 +186,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -206,13 +206,15 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "0120f779563bc282",
+  "active": "a1d275c7035a31e5",
   "lastOpenFiles": [
     "Analisis-Numerico/unidad-04-analisis-sistemas-continuos.md",
+    "Analisis-Numerico/MOC.md",
+    "Analisis-Numerico/unidad-01-series-de-fourier.md",
+    "Administracion-SI/MOC.md",
+    "Ingenieria-Calidad-SW/MOC.md",
     "Analisis-Numerico/Untitled 1.base",
     "Analisis-Numerico/Untitled.base",
-    "Analisis-Numerico/unidad-01-series-de-fourier.md",
-    "Analisis-Numerico/MOC.md",
     "conflict-files-obsidian-git.md",
     "_attachments/Drawing 2026-03-28 18.34.44.excalidraw.md",
     "Comunicacion-de-Datos/unidad-01-introduccion-comunicaciones.md",
@@ -222,7 +224,6 @@
     "Fisica-II/MOC.md",
     "_attachments/Pasted Image 20260328183652_350.png",
     "Analisis-Numerico/unidad-02-series-de-fourier.md",
-    "Ingenieria-Calidad-SW/MOC.md",
     "README.md",
     "Ink/Drawing/2026.3.28 - 19.23pm.drawing",
     "notebooks.md",
@@ -239,7 +240,6 @@
     "_attachments/Drawing 2026-03-28 18.34.43.excalidraw.md",
     "Fisica-II/Unconfirmed 289944.crdownload",
     "Comunicacion-de-Datos/MOC.md",
-    "Administracion-SI/MOC.md",
     "Administracion-SI/unidad-00-into.md",
     "Administracion-SI/unidad-01-plan-estrategico.md",
     "_templates/clase-admin.md",

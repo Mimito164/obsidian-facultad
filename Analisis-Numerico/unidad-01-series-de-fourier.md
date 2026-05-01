@@ -211,3 +211,39 @@ Restando m.a.m
 $$
 e^{j\alpha}-e^{-j\alpha}=2j\sin \alpha \implies \sin \alpha= \frac {e^{j\alpha}-e^{-j\alpha}}{2j} = j\frac{e^{-j\alpha}-e^{j\alpha}}{2}
 $$
+### STF a SEF
+Partimos de la SEF
+$$
+S(x)=\frac{a_{0}}{2}+\sum_{n=1}^\infty a_{n}\cos(n\omega x) + b_{n} \sin(n\omega x)
+$$
+Reemplazamos el $\cos(n\omega x)$ y $\sin(n\omega x)$ por sus equivalentes de euler.
+$$
+S(x)=\frac{a_{0}}{2}+\sum_{n=1}^\infty a_{n} \frac{{e^{jn\omega x} +e^{-jn\omega x}}}{2} + b_{n} j\frac{e^{-jn\omega x}-e^{jn\omega x}}{2}
+$$
+Tomamos factor comun de $e^{jn\omega x}$ y $e^{-jn\omega x}$ 
+$$
+S(x)=\underbrace{\frac{a_{0}}{2}}_{c_{0}}+\sum_{n=1}^\infty e^{jn\omega x}\underbrace{\left( \frac{{a_{n}-jb_{n}}}{2} \right)}_{c_{n}} + e^{-jn\omega x}\underbrace{\left( \frac{{a_{n}+jb_{n}}}{2} \right)}_{c_{-n}}
+$$
+Finalmente
+$$
+S(x)= c_{0}+ \sum_{n=1}^\infty e^{jn\omega x} c_{n} + e^{-jn\omega x} c_{-n} 
+$$
+## Calculo directo de $c_{n}$
+Si bien, a partir del desarrollo anterior podemos obtener $c_{n}$ a partir de $a_{n}$ y $b_{n}$ resulta impractico. Existe una manera de calcularlo directamente.
+$$
+\begin{split}
+c_{n}&=\frac{a_{n}-b_{n}}{2}\\
+
+&=\frac{1}{2}\left[ \frac{1}{L}\int_{-L}^L f(x)\cos(n\omega x)dx -j \frac{1}{L} \int_{-L}^L f(x)\sin(n\omega x)dx \right] \\
+
+&=\frac{1}{2L}\int_{-L}^Lf(x)[\cos(n\omega x)-j\sin(n\omega x)]dx\\
+
+c_{n}&= \frac{1}{2L}\int_{-L}^L f(x) e^{-jn\omega x} dx
+\end{split}
+$$
+## Espectros de serie exponencial
+Dado que los $c_{n}$ son numeros complejos, sus espectros seran 2, uno para el modulo y otro para el argumento.
+# Transformada de fourier
+$$
+F(\omega) =\int_{-\infty}^\infty f(t) e^{-j\omega t}dt
+$$
